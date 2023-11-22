@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.9+commit.3e3065ac"
+		"version": "0.7.5+commit.eb77ed08"
 	},
 	"language": "Solidity",
 	"output": {
@@ -234,10 +234,14 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -257,10 +261,10 @@
 	},
 	"sources": {
 		"VotingSystem.sol": {
-			"keccak256": "0x4b7196500151d6758341653a84409b66e6fe6e0f51fad21bad8ed802c0c86aa1",
+			"keccak256": "0xed299fd05219c26788e812002d1c156094a03607e47e63801d60f9c467c70795",
 			"urls": [
-				"bzz-raw://e594710a931eecd3eace43c9660c786c4d7e4afb63e6cd703f480e06b2c179d7",
-				"dweb:/ipfs/QmcmEvobLmsKb4sWjJJvYPbpddak5AGZFKFKHAHRu7dYqk"
+				"bzz-raw://44e84c31bbede38f9e9cecace641c80d8093378771613fc40caa3c0de9eac584",
+				"dweb:/ipfs/QmY4LXnBitQiejK9MDhszLqAB3N6efjK81jMuUt4UJMXPH"
 			]
 		}
 	},
