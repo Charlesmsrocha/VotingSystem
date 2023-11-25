@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0
+//The line above was missing and it was giving a warning.
 pragma solidity >=0.4.0 <0.9.0;
 
 contract Election {
@@ -33,7 +35,7 @@ contract Election {
     constructor(
         string memory _electionOfficialName,
         string memory _proposal
-    ) public {
+    ) {  //Removing the 'public' from constructor that was making the contract not run
         electionOfficialAddress = msg.sender;
         electionOfficialName = _electionOfficialName;
         proposal = _proposal;
